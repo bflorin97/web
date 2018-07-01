@@ -1,0 +1,29 @@
+* {
+    font-family: "sans-serif";
+    font-size: "20px";
+    background: "blue";
+    -webkit-text-fill-color: #ffffff;
+}
+
+#top_menu {
+    background: #ffffff;
+
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    vertical-align: 150px;
+}
+
+#side_menu {
+    background: #10003d;
+
+    align-self: center;
+    padding: 15px 15px;
+    padding-top: 15px;
+
+    width: 100px;
+    height: 100%;
+
+    position: absolute;
+    left: -200px;
+}
