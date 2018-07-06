@@ -8,15 +8,15 @@ body {
 .menu {
     width: 100%;
     background: #0b055a;
-    padding: 0 50px;
+    padding: 0 200px;
     box-sizing: border-box;
+    color: #ffffff;
 }
 
 .menu h1 {
     margin: 0;
-    padding: 15px 20px;
+    padding: 0 20px;
     float: left;
-    color: #ffffff;
 }
 
 .menu h1 a {
@@ -33,22 +33,16 @@ body {
 }
 
 .menu ul li {
+    padding: 20px 10px;
+    margin: 10px 10px;
     list-style: none;
-    display: inline-block;
-    padding: 20px 30px;
+    display: -webkit-inline-box;
     transition: 0.5s;
 }
 
 .menu ul li:hover {
     background: #460707;
     cursor: pointer;
-}
-
-.responsive-bar {
-    width: 100%;
-    background: #141414;
-    padding: 10px 30px;
-    display: none;
 }
 
 @media (max-width: 900px) {
